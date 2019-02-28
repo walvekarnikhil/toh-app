@@ -10,7 +10,7 @@
     "build": "ng build --prod",
     "e2e": "ng e2e",
     "ng": "ng",
-    "build-dev": "ng build --target=development --environment=dev",
+    "build-dev": "ng build",
     "build-qa": "ng build --target=production --environment=qa",
     "build-prod": "ng build --prod"
   },
