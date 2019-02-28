@@ -1,15 +1,18 @@
 {
-  "name": "angular-io-example",
+  "name": "TourOfHeros",
   "version": "1.0.0",
   "private": true,
   "description": "Example project from an angular.io guide.",
   "scripts": {
     "lint": "tslint ./src/**/*.ts -t verbose",
     "start": "ng serve",
-    "test": "ng test",
+    "test": "ng test --no-watch --code-coverage",
     "build": "ng build --prod",
     "e2e": "ng e2e",
-    "ng": "ng"
+    "ng": "ng",
+    "build-dev": "ng build",
+    "build-qa": "ng build --target=production --environment=qa",
+    "build-prod": "ng build --prod"
   },
   "keywords": [],
   "author": "",
@@ -38,6 +41,7 @@
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "^2.0.4",
     "@types/node": "~8.9.4",
+    "codelyzer": "^4.5.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "^4.0.0",
