@@ -6,10 +6,13 @@
   "scripts": {
     "lint": "tslint ./src/**/*.ts -t verbose",
     "start": "ng serve",
-    "test": "ng test",
+    "test": "ng test --no-watch --code-coverage",
     "build": "ng build --prod",
     "e2e": "ng e2e",
-    "ng": "ng"
+    "ng": "ng",
+    "build-dev": "ng build --target=development --environment=dev",
+    "build-qa": "ng build --target=production --environment=qa",
+    "build-prod": "ng build --prod"
   },
   "keywords": [],
   "author": "",
