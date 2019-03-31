@@ -1,0 +1,6 @@
+.fullpage {
+  width: 100%;
+}
+.fullpage mat-spinner {
+  margin: auto;
+}

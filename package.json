@@ -28,6 +28,7 @@
     "@angular/material": "^7.3.6",
     "@angular/platform-browser": "^7.1.0",
     "@angular/platform-browser-dynamic": "^7.1.0",
+    "@angular/platform-server": "^7.1.0",
     "@angular/router": "^7.1.0",
     "@angular/upgrade": "^7.1.0",
     "angular-in-memory-web-api": "github:brandonroberts/in-memory-web-api-bazel#50a34d8",
